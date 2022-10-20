@@ -1,1 +1,17 @@
 /* font-family: 'Roboto Condensed', sans-serif; */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #bddab0;
+  background: url(./../img/backgroung.jpg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
