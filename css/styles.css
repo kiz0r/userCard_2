@@ -7,6 +7,9 @@ body {
 body {
   background-color: #bddab0;
   background: url(./../img/backgroung.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -20,6 +23,10 @@ body {
 
 p {
   font-size: 18px;
+}
+
+a {
+  color: gray;
 }
 
 a:visited {
