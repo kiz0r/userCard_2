@@ -25,55 +25,72 @@
     <title>User Card 2</title>
   </head>
   <body>
-    <section class="card">
+    <article class="card">
       <header class="header">
-        <img src="./img/avatar.png" alt="user photo" class="user-image" />
-        <h1 class="user-name">Christina W. Turner</h1>
-        <h2 class="occupation"><em>interaction designer</em></h2>
-        <span class="geo">
-          <p class="city">Austin, Texas</p>
-        </span>
-        <div class="hor-line"></div>
+        <div class="contentWrapper">
+          <img src="./img/avatar.jpg" alt="user photo" class="userImage" />
+          <h1 class="userName">Christina W. Turner</h1>
+          <p class="occupation"><em>interaction designer</em></p>
+          <span class="geo flexWrap">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="city">Austin, Texas</p>
+          </span>
+          <div class="horLine"></div>
+        </div>
       </header>
       <main class="main">
-        <h3 class="followers">2.5k+ followers</h3>
-        <ul class="follower-icons">
-          <li class="icon"></li>
-          <li class="icon"></li>
-          <li class="icon"></li>
-          <li class="icon"></li>
-          <li class="icon"></li>
-        </ul>
+        <div class="contentWrapper">
+          <p class="followers">2.5k+ followers</p>
+          <ul class="followerIcons flexWrap">
+            <li class="icon withoutMargin">
+              <i class="fa-regular fa-user"></i>
+            </li>
+            <li class="icon">
+              <i class="fa-sharp fa-solid fa-user-tie"></i>
+            </li>
+            <li class="icon">
+              <i class="fa-solid fa-user-nurse"></i>
+            </li>
+            <li class="icon">
+              <i class="fa-solid fa-user-graduate"></i>
+            </li>
+            <li class="icon">
+              <i class="fa-solid fa-circle-plus"></i>
+            </li>
+          </ul>
+        </div>
       </main>
       <footer class="footer">
-        <ul class="social">
-          <li class="media">
-            <a href="#" class="facebook link">
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="media borders">
-            <a href="#" class="safari link">
-              <i class="fa-brands fa-safari"></i>
-            </a>
-          </li>
-          <li class="media">
-            <a href="#" class="twitter link">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-          </li>
-          <li class="media borders">
-            <a href="#" class="pinterest link">
-              <i class="fa-brands fa-pinterest"></i>
-            </a>
-          </li>
-          <li class="media">
-            <a href="#" class="linkedIn link">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-          </li>
-        </ul>
+        <div class="contentWrapper">
+          <ul class="social flexWrap">
+            <li class="media">
+              <a href="#" class="facebook link">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="media borders">
+              <a href="#" class="safari link">
+                <i class="fa-brands fa-safari"></i>
+              </a>
+            </li>
+            <li class="media">
+              <a href="#" class="twitter link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="media borders">
+              <a href="#" class="pinterest link">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </li>
+            <li class="media">
+              <a href="#" class="linkedIn link">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </footer>
-    </section>
+    </article>
   </body>
 </html>

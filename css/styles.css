@@ -1,4 +1,4 @@
-/* font-family: 'Roboto Condensed', sans-serif; */
+/* flex-grow : 1; */
 html,
 body {
   height: 100%;
@@ -8,21 +8,105 @@ body {
   background-color: #bddab0;
   background: url(./../img/backgroung.jpg);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.card {
-  background: #fff;
+p {
+  font-size: 18px;
 }
 
-.user-image {
-  width: 80px;
-  height: 80px;
-  border: 2px solid black;
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  font-size: 26px;
+}
+
+.flexWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  color: #b1b1b1;
+  background: #fff;
+  border-radius: 20px;
+  text-align: center;
+  align-items: stretch;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.contentWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.userImage {
+  width: 120px;
+  height: 120px;
   border-radius: 50px;
+  margin-top: -70px;
+}
+
+.userName {
+  font-size: 32px;
+  line-height: 37px;
+  margin: 10px 0;
+}
+
+.occupation {
+  font-style: italic;
+}
+
+.geo {
+  margin: 15px 0;
+}
+
+.city {
+  margin-left: 10px;
+}
+
+.horLine {
+  border: 0.5px solid gray;
+  background: gray;
+  border-radius: 10px;
+  opacity: 0.2;
+}
+
+.followers {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.followerIcons {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.icon {
+  margin-left: 15px;
+}
+
+.social {
+  margin-top: auto;
+  padding-bottom: 10px;
+}
+
+.borders {
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+.link {
+  padding: 0 10px;
 }
